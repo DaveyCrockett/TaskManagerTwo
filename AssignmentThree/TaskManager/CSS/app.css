@@ -1,0 +1,70 @@
+
+.main-content{
+    display: flex;
+}
+
+.main-content .section-list{
+    flex: 5;
+    border: 2px solid gray;
+    background-image: url('../images/pexels-pixabay-531767.jpg');
+    background-size: cover;
+    padding: 5px;
+}
+
+.main-content .section-form{
+    flex: 3;
+    border: 2px solid black;
+}
+
+h1{
+    color: black;
+}
+
+.my-control{
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+.my-control label{
+    display: block;
+    width: 90px;
+    text-align: right;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.priorityExclamation{
+    font-size: 18pt;
+    cursor: pointer;
+}
+
+#iPriority.fas {
+    color: red;
+}
+
+.task {
+    border: 1px solid #ababac;
+    display: flex;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.task i {
+    flex: 1;
+}
+
+.task .info {   
+    flex: 6;
+}
+
+.task .info p {
+    margin-bottom: 0;
+}
+
+.task .details {
+    flex: 2;
+}
